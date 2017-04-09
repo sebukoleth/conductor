@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <context-root>dicloud</context-root>
+    <container-descriptor>
+        <prefer-application-packages>
+            <package-name>com.fasterxml.jackson.*</package-name>
+			<package-name>com.sun.jersey.*</package-name>
+			<package-name>com.sun.research.ws.wadl.*</package-name>
+			<package-name>com.sun.ws.rs.ext.*</package-name>
+			<package-name>javax.ws.rs.*</package-name>
+			<package-name>org.objectweb.asm.*</package-name>
+        </prefer-application-packages>
+		<!-- <prefer-web-inf-classes>true</prefer-web-inf-classes> -->
+    </container-descriptor>
+</weblogic-web-app>

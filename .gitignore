@@ -14,3 +14,10 @@ ui/.settings
 .settings
 dump.rdb
 .idea
+**/*.iml
+common/target/
+core/target/
+dependencies.txt
+jersey/target/
+out.txt
+redis-persistence/target/
